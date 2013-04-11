@@ -26,7 +26,7 @@ output.txt -> All possible solutions for given input is stored
 
 Following briefs the design of the program:
 -------------------------------------------
-Important data structures:
+1) Important data structures:
 
 -> Arrray KenKenBoard[MAXBOARDSIZE][MAXBOARDSIZE] represents the game board.
 
@@ -39,7 +39,7 @@ Important data structures:
 -> Array cageValue[PUZZLEARRAYSIZE] captures values found in cages of given KenKen board.
 
 
-Constraints:
+2) Constraints:
 
 -> isRowColConstraintSatisfied(int rowIndex,int colIndex,int cellValue) checks uniqueness constraint for a given value across its row and column.
 
@@ -49,7 +49,7 @@ Constraints:
 
 
 
-Explicit information:
+3) Explicit information:
 Following aspects are explicitly captured in game description.
 
 -> Size of the board and number of elements in the board
@@ -64,7 +64,7 @@ Following aspects are explicitly captured in game description.
 
 -> Successor function is assigning a value to a given cell and check for the constriants
 
-Implicit Information:
+4) Implicit Information:
 Following aspects are implicitly represented. 
 
 -> A cell value can never be 0
