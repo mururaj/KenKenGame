@@ -30,7 +30,7 @@ Important data structures:
 -> Arrray KenKenBoard[MAXBOARDSIZE][MAXBOARDSIZE] represents the game board.
 -> MAXBOARDSIZE represents the maximum size of the board supported. As of now 9*9 is the maximum board size input accepted by the program.
 -> Array cageOperator[PUZZLEARRAYSIZE] captures the operators  found in cages of given KenKen board.
--> Array cageIndex[PUZZLEARRAYSIZE][PUZZLEARRAYSIZE] associates the cells with corresponding cage numbers. 
+-> Array cageIndex[PUZZLEARRAYSIZE][PUZZLEARRAYSIZE] associates the cells with corresponding cage numbers.
 -> Array cageValue[PUZZLEARRAYSIZE] captures values found in cages of given KenKen board.
 
 Constraints:
