@@ -27,6 +27,7 @@ output.txt -> All possible solutions for given input is stored
 Following briefs the design of the program:
 -------------------------------------------
 Important data structures:
+
 -> Arrray KenKenBoard[MAXBOARDSIZE][MAXBOARDSIZE] represents the game board.
 
 -> MAXBOARDSIZE represents the maximum size of the board supported. As of now 9*9 is the maximum board size input accepted by the program.
@@ -39,6 +40,7 @@ Important data structures:
 
 
 Constraints:
+
 -> isRowColConstraintSatisfied(int rowIndex,int colIndex,int cellValue) checks uniqueness constraint for a given value across its row and column.
 
 -> isCageConstraintSatisfied(int rowIndex,int colIndex,int cellValue) checks whether the given value satisfies the arithmetic operations such as +, -, * and % represented by the corresponding cage.
